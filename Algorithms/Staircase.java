@@ -18,5 +18,4 @@ public class Solution {
             nHelp = nHelp - 1;
         }
     }
-    
 }
