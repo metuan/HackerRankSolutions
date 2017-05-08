@@ -11,12 +11,10 @@ public class Main {
         charQueue.add(c);
     }
     private char popCharacter() {
-        char c = charStack.pop();
-        return c;
+        return charStack.pop();
     }
     private char dequeueCharacter() {
-        char c = charQueue.poll();
-        return c;
+        return charQueue.poll();
     }
 
 
