@@ -10,11 +10,11 @@ class Node{
 }
 class Solution{
 	public static int getHeight(Node root){
-      if (root == null) return -1;
-      int leftHeight = getHeight(root.left);
-      int rightHeight = getHeight(root.right);
-      if (leftHeight > rightHeight) return leftHeight + 1;
-      else return rightHeight + 1;
+	   if (root == null) return -1;
+	   int leftHeight = getHeight(root.left);
+	   int rightHeight = getHeight(root.right);
+	   if (leftHeight > rightHeight) return leftHeight + 1;
+	   else return rightHeight + 1;
     }
         public static Node insert(Node root,int data){
         if(root==null){
